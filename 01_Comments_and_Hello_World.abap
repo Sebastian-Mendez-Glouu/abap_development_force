@@ -23,7 +23,7 @@ START-OF-SELECTION.
 DATA: lv_message TYPE string.
 
 "|& Assignment of the 'Hello World' message to the variable
-lv_message = 'Hello World!'.".
+lv_message = 'Hello World!'.
 
 "|& Display the greeting message on the screen
 WRITE: / lv_message.
@@ -51,7 +51,7 @@ CLASS zcl_hello_world IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
     "|& Assignment of the 'Hello World' message to the variable
-    lv_message = 'Hello World!'.".
+    lv_message = 'Hello World!'.
 
     "|& Use of out->write to display the message in Eclipse ADT
     out->write( lv_message ). 
