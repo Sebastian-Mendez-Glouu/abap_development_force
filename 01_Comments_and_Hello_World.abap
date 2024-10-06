@@ -15,6 +15,8 @@
 *& Description of Change :  
 *&-------------------------------------------------------------------------*
 
+*&-------------------------------------------------------------------------*
+"|& Begin of traditional ABAP 'Hello World' program
 REPORT z_hello_world.
 
 START-OF-SELECTION.
@@ -30,6 +32,8 @@ WRITE: / lv_message.
 
 "|& End of traditional ABAP 'Hello World' program
 *&-------------------------------------------------------------------------*
+
+
 
 
 *&-------------------------------------------------------------------------*
@@ -58,4 +62,6 @@ CLASS zcl_hello_world IMPLEMENTATION.
   ENDMETHOD.
 
 ENDCLASS.
+
+
 

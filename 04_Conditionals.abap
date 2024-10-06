@@ -32,6 +32,7 @@ ENDIF.
 
 
 
+
 "|& Example of CASE ... ENDCASE
 DATA: lv_case_value TYPE i VALUE 2.
 
@@ -53,6 +54,7 @@ ENDCASE.
 
 
 
+
 "|& Example of SWITCH expression
 DATA: lv_switch_result TYPE string.
 
@@ -65,6 +67,7 @@ WRITE: / lv_switch_result.
 
 
 
+
 "|& Example of COND expression
 DATA: lv_cond_result TYPE string.
 
@@ -73,6 +76,7 @@ lv_cond_result = COND #( WHEN lv_value = 100 THEN 'Perfect'
                          WHEN lv_value > 50 THEN 'Good'
                          ELSE 'Average' ).
 WRITE: / lv_cond_result.
+
 
 
 
@@ -93,5 +97,7 @@ lt_filtered = VALUE #( FOR lv_item IN lt_values
 LOOP AT lt_filtered INTO DATA(lv_filtered_value).
   WRITE: / lv_filtered_value.
 ENDLOOP.
+
+
 
 

@@ -15,7 +15,7 @@
 *& Description of Change :  
 *&-------------------------------------------------------------------------*
 
-"|& Declaration of all common ABAP data types
+"|& Declaration of all common ABAP Data Types
 
 "|& Character string (fixed length)
 DATA: lv_char TYPE c LENGTH 10.  "|& 10-character fixed-length string
@@ -73,5 +73,6 @@ DATA: lv_boolean TYPE abap_bool.
 
 "|& Character for user-defined IDs (usually for GUIDs or other identifiers)
 DATA: lv_guid TYPE sysuuid_c.
+
 
 
